@@ -11,31 +11,31 @@ body {
     color: white;
 }
 
-/*BODY1*/
-.body-1 {
+/*hero1*/
+.hero-1 {
     max-width: 1040px;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 200px;
 }
 
-.body-1-header {
+.hero-1-header {
     max-height: 66px;
     display: flex;
     justify-content: space-between;
 }
 
-.body-1-header-logo img {
+.hero-1-header-logo img {
     height: 100%;
 
 }
 
-.body-1-header-options {
+.hero-1-header-options {
     display: flex;
     align-items: center;
 }
 
-.body-1-header-options div {
+.hero-1-header-options div {
     opacity: .8;
     font-size: 18px;
     line-height: 36px;
@@ -43,27 +43,27 @@ body {
     margin: 0 20px 0 36px;
 }
 
-.body-1-main {
+.hero-1-main {
     text-align: center;
 }
-.body-1-main-1 {
+.hero-1-main-1 {
     margin-top: 100px;
     font-size: 106px;
     line-height: 125px;
     letter-spacing: -3px;
     font-weight: bold; 
 }
-.body-1-main-2 {
+.hero-1-main-2 {
     font-size: 30px;
     letter-spacing: -0.3px;
     line-height: 38px;
     margin-top: 35px;
     font-weight: 700;
 }
-.body-1-main-3 {
+.hero-1-main-3 {
     margin-top: 58px;
 }
-.body-1-main-3 button {
+.hero-1-main-3 button {
     padding: 20px 65px;
     font-size: 24px;
     font-family: 700;
@@ -73,14 +73,60 @@ body {
     cursor: pointer;
 }
 
-/* BODY 2 */
-.body-2 {
+/* hero 2 */
+.hero-2 {
     height: 800px;
     position: relative;
     overflow: hidden;
 }
-.body-2-container img {
+.hero-2-container img {
     position: absolute;
     left: calc(50% - 198px);
     top: 6%;
+}
+
+/* hero 3 */
+.hero-3 {
+    position: relative;
+    padding: 240px 200px 180px;
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+}
+.hero-3-header-1 {
+    font-size: 100px;
+    letter-spacing: -3.15px;
+    opacity: 0.9;
+    font-weight: 700;
+}
+.hero-3-header-2 {
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    max-width: 630px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+.hero-3-main-1 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    max-width: 630px;
+    font-weight: 500px;
+    margin-bottom: 40px;
+}
+.hero-3-main-2 {
+    display: inline-block;
+    padding: 20px 65px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 700;
+
 }
