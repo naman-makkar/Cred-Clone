@@ -145,7 +145,7 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-.hero-content {
+.hero-4-left-content {
     padding: 0 50px;
     min-height: 100vh;
     display: flex;
@@ -173,6 +173,39 @@ body {
 .hero-4-right {
     width: 50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    position: relative;
+}
+.hero-4-right-placeholder {
+    max-width: 322px;
+    max-height: 480px;
+    position: sticky;
+    top: 180px;
+    box-shadow: rgb(250 250 255 / 16%) 0px -5px 6px 0px inset, rgb(38 37 37 / 24%) 4px 6px 11px 1px inset;
+    border-radius: 46px;
+    padding: 16px 14px;
+}
+.hero-4-right-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 46px;
+}
 
+/* hero 5 */
+.hero-5 {
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/neopop-image-mock.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* footer */
+footer {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
