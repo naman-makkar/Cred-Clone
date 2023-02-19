@@ -1,6 +1,7 @@
 # Cred Club Website Clone
 
 Tech Stack used : HTML, CSS & Javascript
+
 Original Website: https://cred.club/
 
 Screenshots: 
